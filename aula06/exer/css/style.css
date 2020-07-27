@@ -1,0 +1,128 @@
+body {
+  background-color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main,
+footer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.logo {
+  width: 200px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.tag-desconto {
+  width: 100px;
+}
+
+.img-prato {
+  width: 100%;
+}
+
+.item > span {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(150, 150, 150, 0.5);
+}
+
+.item > a {
+  padding: 5px;
+  background-color: #828282;
+}
+
+/* flex */
+
+navv {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navegacao {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.navegacao > li {
+  box-sizing: border-box;
+  background-color: #828282;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.navegacao > li:last-child {
+  margin-right: 0;
+}
+
+.navegacao > li > a {
+  display: block;
+  font-size: 20px;
+  width: calc(1000px / 6.5);
+  text-align: center;
+}
+
+.navegacao > li:last-child > a {
+  margin-right: 0;
+}
+
+/***/
+
+.galeria {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  position: relative;
+  max-width: 313px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.tag-desconto {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.item > span {
+  position: absolute;
+  top: calc(25% - 25px);
+  width: 100%;
+  text-align: center;
+}
+
+/***/
+
+footer {
+  background-color: #ff2020;
+  border-radius: 20px 20px 0 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

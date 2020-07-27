@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+
+
+header{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+aside{
+    width: 300px;
+    float: left;
+    height: 100%;
+    padding: 30px;
+}
+
+main{
+    width: 660px;  
+    float: left;
+    text-align: center;
+    padding: 30px;
+}
+
+footer{
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+img{
+    width: 100%;
+}

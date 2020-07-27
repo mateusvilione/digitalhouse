@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Formulário de contato</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/hobbies.html">Hobbies</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulário de contato</h1>
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label>Assunto da mensagem:</label>
+                <select>
+                    <option value="vagas">Vagas</option>
+                    <option value="freelance">Freelance</option>
+                </select>
+            </div>
+            <div>
+                <div>
+                    <input type="radio" value="feminino" name="genero" id="genero-feminino" checked>
+                    <label for="genero-feminino">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" value="masculino" name="genero" id="genero-masculino">
+                    <label for="genero-masculino">Masculino</label>
+                </div>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Passatempos</legend>
+                    <div>
+                        <input type="checkbox" value="ler" id="ler">
+                        <label for="ler">Ler</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="filme" id="filme">
+                        <label for="filme">Assistir Filmes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="estudar" id="estudar">
+                        <label for="estudar">Estudar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="tocar-violao" id="tocar-violao">
+                        <label for="tocar-violao">Tocar Violão</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="escrever" id="escrever">
+                        <label for="escrever">Escrever</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <label for="comentario">Comentário:</label>
+                <textarea name="comentario" id="comentario" cols="50" rows="10" required></textarea>
+            </div>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+
+</body>
+
+</html>

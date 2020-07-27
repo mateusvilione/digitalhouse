@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap);
+
+body{
+    font-family:  "Montserrat", Arial, sans-serif;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: repeat;
+}
+
+h1, h2{
+    color: #008080;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0, 160, 1);
+}
+
+h2{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+header>nav>ul>li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.perfil{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.icones{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.imagens-galeria{
+    height: 360px;
+}
+
+.destaque{
+    font-size: 22px;
+    color: #C3C3C3;
+    background-color: #005078;
+}
+
+a:hover{
+    color: #005078;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.imagens-galeria:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+    margin: 20px;
+}
